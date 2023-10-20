@@ -1,0 +1,59 @@
+.navv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  height: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.nav-scrolled {
+  width: 100%;
+  border-radius: 20px;
+  background: radial-gradient(
+    2900.76% 50.13% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.img > a > img {
+  width: 275px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 35%;
+}
+
+.menu > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu > ul > a {
+  list-style: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.regBtn {
+  padding: 15px;
+}

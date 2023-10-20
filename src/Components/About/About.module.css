@@ -1,0 +1,71 @@
+.about{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.prog{
+  width: 450px;
+height: 460px;
+flex-shrink: 0;
+  background: url(../images/360_F_335348056_yY8QyHP966KePjyutnns1Puwt2bnngZc.jpg);
+  background-size: cover;
+  border-radius: 40% 15% 40% 15%;
+}
+
+.aboutUs{
+  width: 50%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.historyAb{
+  color: #FFF;
+text-transform: uppercase;
+font-size: 36px;
+font-weight: 700;
+
+}
+
+.history{
+  color: #FFF;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+
+.vector7{
+  position: absolute;
+  width: 1449px;
+  height: 256.68px;
+  top: 100px;
+  left: -6.5px;
+  border: 6px;
+  z-index: -1;
+}
+
+.vector8{
+  position: absolute;
+  width: 1445px;
+  height: 211.75px;
+  top: 250px;
+  left: 4.5px;
+  border: 6px;
+  z-index: -1;
+}
+
+.hayTag{
+  color: #FFF;
+
+font-size: 36px;
+
+font-weight: 300;
+
+}

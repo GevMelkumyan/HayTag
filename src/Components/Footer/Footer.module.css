@@ -1,0 +1,123 @@
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/Vector\ 19.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_foot {
+  width: 80%;
+  height: 70%;
+  background: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div_1 {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: none;
+
+}
+
+.logoimg{
+  width: 100%;
+  background: none;
+
+}
+
+.div_2 {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  background: none;
+
+}
+
+.p_1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.p_2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.div_3 {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  background: none;
+}
+
+.div_4 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: none;
+  gap: 2rem;
+}
+
+.h4 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.div_min {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+  background: none;
+
+}
+
+.butt {
+  width: 214px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #343045;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.lcon {
+  fill: #c0b7e8;
+}

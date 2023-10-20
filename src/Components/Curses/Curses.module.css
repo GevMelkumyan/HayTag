@@ -1,0 +1,47 @@
+.curses {
+  width: 100%;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.curses1 {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.curses2 {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.curses_btn {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 50px;
+  font-size: 16px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.curses_text {
+  width: 100%;
+  height: 40vh;
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.carusel {
+  width: 90%;
+}
